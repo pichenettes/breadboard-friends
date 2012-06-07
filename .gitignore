@@ -1,27 +1,29 @@
-*.py[co]
+# Precompiled python modules
+*.pyc
 
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
+# Eagle backups
+*.s#?
+*.b#?
 
-# Installer logs
-pip-log.txt
+# Gerber files
+*.CUT
+*.GBL
+*.GBO
+*.GBS
+*.GML
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+*.TXT
+*.dri
+*.gpi
+*.pro
 
-# Unit test / coverage reports
-.coverage
-.tox
+# LaTeX compiled file
+*.pdf
+*.log
+*.aux
 
-#Translations
-*.mo
-
-#Mr Developer
-.mr.developer.cfg
+# OS X crap
+.DS_Stor?
